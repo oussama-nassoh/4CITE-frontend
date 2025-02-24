@@ -1,0 +1,10 @@
+name: "Display Commit Info"
+description: "A custom action to display commit details"
+author: "Your Name"
+
+runs:
+  using: "composite"
+  steps:
+    - name: Execute script
+      run: ./entrypoint.sh
+      shell: bash
